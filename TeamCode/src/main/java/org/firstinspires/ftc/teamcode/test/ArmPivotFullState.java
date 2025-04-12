@@ -15,9 +15,8 @@ import org.firstinspires.ftc.robotcore.external.navigation.CurrentUnit;
 
 import java.util.List;
 
-//@Disabled
 @Config
-@TeleOp
+@TeleOp(name = "ArmPivotFullState", group = "Linear OpMode")
 public class ArmPivotFullState extends LinearOpMode {
 
     private DcMotorEx pivotMotor;

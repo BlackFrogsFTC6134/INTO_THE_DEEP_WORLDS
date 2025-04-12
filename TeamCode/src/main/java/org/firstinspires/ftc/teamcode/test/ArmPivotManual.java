@@ -14,13 +14,12 @@ import org.firstinspires.ftc.robotcore.external.navigation.CurrentUnit;
 
 import java.util.List;
 
-//@Disabled
 @Config
-@TeleOp
+@TeleOp(name = "ArmPivotManual", group = "Linear OpMode")
 public class ArmPivotManual extends OpMode {
 
-    public static double ARM_UP_POWER = 0.7;
-    public static double ARM_DOWN_POWER = -0.25;
+    public static double ARM_UP_POWER = 0.5;
+    public static double ARM_DOWN_POWER = -0.5;
 
     private DcMotorEx pivotMotor;
     private TouchSensor switchPivotHome;
